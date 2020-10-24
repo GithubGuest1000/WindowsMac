@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Windows Mac and hi</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link href="css\jquery-ui.structure.css" rel="stylesheet" type="text/css" />
+    <link href="css\jquery-ui.theme.css" rel="stylesheet" type="text/css" />
+            <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js\jquery-ui.js"></script>
+    <script type="module" src="script.js"></script>
+    <script type="text/javascript" src="startup.js"></script>
+</head> <!-- put module or it wont work! -->
+
+<body bgcolor="#0000FF">
+ 
+    <div style="display: none" id="win"></div>
+    <div><button id=evalprm onclick="programs.eval()">Eval</button><button id=fireduckprm onclick="programs.fireduck()">Mozilla FireDuck</button><button id=virtualboxprm onclick="programs.vm()">VirtualBox</button>
+        <!--<button onclick="programs.tb()">Trollbox</button>-->
+    </div>
+    <div id="min" class="footer"><label id="menuhandler"></label><br><button id=startprm type="button" class="btn btn-secondary" onclick="programs.start()">START</button></div>
+    <noscript>
+        <div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-draggable ui-resizable" aria-describedby="noscript4" style="position: absolute; height: auto; width: 400px; top: 245.5px; left: 479.297px; z-index: 101;" aria-labelledby="ui-id-1">
+            <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">No JavaScript Enabled</span></div>
+            <div id="noscript4" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 89.6312px; max-height: none; height: auto;">
+                <p>JavaScript is not enabled. All features will stop working. To make all working again, please enable JavaScript!</p>
+            </div>
+            <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div>
+            <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div>
+        </div>
+        <div class="ui-widget-overlay ui-front" style="z-index: 100; opacity: 0.5;"></div>
+
+    </noscript>
+</body>
+
+</html>
