@@ -1,0 +1,37 @@
+html {
+    cursor: url("https://windows99beta.robloxiangreen.repl.co/static/CursorsXP.cur"), none;
+}
+
+.footer {
+
+    position: fixed;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+}
+
+.ui-menu {
+    width: 150px;
+}
+
+centeralize {
+
+    border-radius: 1em;
+
+    padding: 1em;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    margin-right: -50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
